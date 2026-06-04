@@ -347,7 +347,7 @@ elif page == "🔍 Diagnostic Analysis":
 # ════════════════════════════════════════════════════════════════════════════
 elif page == "🤖 Classification (Multi-Algorithm)":
     st.markdown('<div class="section-header">🤖 Classification Analysis</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-sub">Compare 7 algorithms: Accuracy, Precision, Recall, F1, ROC-AUC</div>', unsafe_have_html=True)
+    st.markdown('<div class="section-sub">Compare 7 algorithms: Accuracy, Precision, Recall, F1, ROC-AUC</div>', unsafe_allow_html=True)
     
     st.markdown(
         '<div class="alert-info">🎯 <strong>Target:</strong> Predict payment status (Paid/Not Paid)<br>'
